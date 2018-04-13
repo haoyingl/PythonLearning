@@ -1,0 +1,90 @@
+------------------------------------------------------------------------
+r623178 | jfd473 | 2018-04-02 18:27:40 +0800 (Mon, 02 Apr 2018) | 1 line
+Changed paths:
+   M /trunk/C_Application/SC_RROM/Include/Messages/RromCmStartDlTestModelReq.h
+
+LTE4499-Q review comment correction
+------------------------------------------------------------------------
+r623174 | huanliz | 2018-04-02 16:10:34 +0800 (Mon, 02 Apr 2018) | 1 line
+Changed paths:
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Include/CellcIMacWmpMeasStateHolder.hpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Include/CellcMacWmpMeasStateHolder.hpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Source/CellcMacMeasInitRespValidator.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Source/CellcMacWmpMeasStateHolder.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Test_modules/CellcMacMeasInitRespValidatorTestSuite.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Test_modules/CellcMacWmpMeasStateHolderTestSuite.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Test_modules/Mocks/CellcMacWmpMeasStateHolderMock.hpp
+
+LTE3544 change clearMeasToInstall to clearMeasToInitialize
+------------------------------------------------------------------------
+r623171 | xwang023 | 2018-04-02 15:17:08 +0800 (Mon, 02 Apr 2018) | 1 line
+Changed paths:
+   M /trunk/C_Application/SC_UEC/SS_UecServices/SS_UeSpecificServices/CP_UeManagement/Include/UecUeRelease.hpp
+   M /trunk/C_Application/SC_UEC/SS_UecServices/SS_UeSpecificServices/CP_UeManagement/Source/UecUeRelease.cpp
+
+LTE4708 code change
+------------------------------------------------------------------------
+r623165 | huanliz | 2018-04-02 14:55:57 +0800 (Mon, 02 Apr 2018) | 1 line
+Changed paths:
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Include/CellcHandlerSendMeasurementTerminationReq.hpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Include/CellcIMacWmpMeasStateHolder.hpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Include/CellcMacMeasTransitionIdleWaitForInd.hpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Include/CellcMacWmpMeasStateHolder.hpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Source/CellcHandlerSendMeasurementTerminationReq.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Source/CellcMacMeasInitRespValidator.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Source/CellcMacMeasTransitionIdleWaitForInd.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Source/CellcMacWmpMeasStateHolder.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Test_modules/CellcHandlerSendMeasurementTerminationReqTestSuite.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Test_modules/CellcMacMeasInitRespValidatorTestSuite.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Test_modules/CellcMacMeasTransitionIdleWaitForIndTestSuite.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Test_modules/CellcMacWmpMeasStateHolderTestSuite.cpp
+   M /trunk/C_Application/SC_CELLC/SS_CellcServices/CP_CellcMacMeasService/Test_modules/Mocks/CellcMacWmpMeasStateHolderMock.hpp
+
+LTE3544 refactor measurement initial
+------------------------------------------------------------------------
+r623162 | yuxiad | 2018-04-02 14:49:23 +0800 (Mon, 02 Apr 2018) | 1 line
+Changed paths:
+   M /trunk/C_Test/cplane_k3/src/TestTargets/CELLC/functions/Multefire_func.ttcn3
+   M /trunk/C_Test/cplane_k3/src/TestTargets/CELLC/functions/RadioAdmissionControl_func.ttcn3
+   M /trunk/C_Test/cplane_k3/src/TestTargets/CELLC/templates/Multefire_templ.ttcn3
+   M /trunk/C_Test/cplane_k3/src/TestTargets/CELLC/testcases/Multefire.ttcn3
+
+LTE3677​ B-w RrmRac_Success_and_Fail_during_HO
+------------------------------------------------------------------------
+r623146 | jingjinc | 2018-04-02 13:51:11 +0800 (Mon, 02 Apr 2018) | 1 line
+Changed paths:
+   A /trunk/C_Test/cplane_k3/src/TestTargets/PIT/constants/Multefire_const.ttcn3
+
+LTE3677 add new file Multefire_const.ttcn3 for MF PIT
+------------------------------------------------------------------------
+r623145 | jingjinc | 2018-04-02 13:47:28 +0800 (Mon, 02 Apr 2018) | 1 line
+Changed paths:
+   A /trunk/C_Test/cplane_k3/src/TestTargets/PIT/functions/Multefire_Utility_func.ttcn3
+
+LTE3677 add new file Multefire_Utility_func.ttcn3 for MF PIT
+------------------------------------------------------------------------
+r623140 | fangweiy | 2018-04-02 13:26:20 +0800 (Mon, 02 Apr 2018) | 1 line
+Changed paths:
+   M /trunk/C_Application/SC_UEC/CP_Utilities/Include/UecIMultefireRrcReconfigurationFiller.hpp
+   M /trunk/C_Application/SC_UEC/CP_Utilities/Include/UecMultefireRrcReconfigurationFiller.hpp
+   M /trunk/C_Application/SC_UEC/CP_Utilities/Source/UecMultefireRrcReconfigurationFiller.cpp
+   M /trunk/C_Application/SC_UEC/CP_Utilities/Test_modules/Mocks/UecMultefireRrcReconfigurationFillerMock.hpp
+   M /trunk/C_Application/SC_UEC/CP_Utilities/Test_modules/UecMultefireRrcReconfigurationFillerTestSuite.cpp
+   M /trunk/C_Application/SC_UEC/SS_UecServices/SS_UeSpecificServices/CP_UeManagement/Source/UecRrcMsgFillerFacade.cpp
+   M /trunk/C_Application/SC_UEC/SS_UecServices/SS_UeSpecificServices/CP_UeManagement/Test_modules/UecRrcMsgFillerFacadeTestSuite.cpp
+
+LTE3677 B-l update CFAM for RRE
+------------------------------------------------------------------------
+r623136 | j47chen | 2018-04-02 13:04:05 +0800 (Mon, 02 Apr 2018) | 1 line
+Changed paths:
+   M /trunk/C_Test/cplane_k3/src/TestTargets/UEC/testcases/LTE2585_MdtIFUePeriodicMeasurement/LTE2585Qd_MdtIFUePeriodicMeasurement.ttcn3
+
+LTE2585 sct case modify
+------------------------------------------------------------------------
+r623134 | liawei | 2018-04-02 12:57:07 +0800 (Mon, 02 Apr 2018) | 1 line
+Changed paths:
+   M /trunk/C_Application/SC_UEC/SS_UecServices/SS_UecCommonServices/CP_TraceHandling/Source/UecTracingUeImmediateMdtSession.cpp
+   M /trunk/C_Application/SC_UEC/SS_UecServices/SS_UecCommonServices/CP_TraceHandling/Test_modules/UecUeImmediateMdtSessionTestSuite.cpp
+
+RN: PR332239: [TL00][LTE1308]UE will be configured with obtainLocation-r11 while only do Trace not MDT
+------------------------------------------------------------------------
